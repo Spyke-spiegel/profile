@@ -1,38 +1,7 @@
 @import url("components/cards.css");
 @import url("components/titles.css");
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-}
-
-.profile_round {
-  height: 300px;
-  width: 300px;
-  border-radius: 150px;
-}
-
-.movie_rectangular {
-  height: 500px;
-  width: 400px;
-}
-
-
-
+@import url("components/avatar.css");
+@import url("components/button.css");
 
 
 .link_social > li {
@@ -42,18 +11,6 @@
 
 .list-inline {
   padding-left: 0px;
-}
-
-
-
-#link_button {
-  margin: 20px auto;
-}
-
-.title_big {
-  font-size: 45px;
-  margin-top: -20px;
-
 }
 
 a {

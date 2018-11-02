@@ -1,16 +1,18 @@
 .container {
   width: 1500px;
   margin: 0px auto;
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
 }
 
 .card {
   background-color: #343434;
-  width: 1000px;
+  width: 70vw;
   margin: 20px auto;
   padding: 50px;
   border-radius: 15px;
   box-shadow: 2px 2px 3px grey;
+}
+
+.movie_rectangular {
+  height: 500px;
+  width: 400px;
 }
