@@ -1,3 +1,25 @@
+@import url("components/cards.css");
+@import url("components/titles.css");
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
 .profile_round {
   height: 300px;
   width: 300px;
@@ -9,19 +31,9 @@
   width: 400px;
 }
 
-.container {
-  width: 1500px;
-  margin: 0px auto;
-}
 
-.card {
-  background-color: #343434;
-  width: 1000px;
-  margin: 20px auto;
-  padding: 50px;
-  border-radius: 15px;
-  box-shadow: 2px 2px 3px grey;
-}
+
+
 
 .link_social > li {
   display: inline-block;
@@ -32,18 +44,7 @@
   padding-left: 0px;
 }
 
-.title_medium {
-  font-size: 35px;
-  font-weight : bold;
-  font-style: italic;
-}
 
-.movie_title{
-  margin-bottom: 110px;
-  font-size: 35px;
-  font-weight : bold;
-  font-style: italic;
-}
 
 #link_button {
   margin: 20px auto;
