@@ -1,3 +1,15 @@
 #link_button {
   margin: 20px auto;
 }
+
+a {
+  color: #FED766;
+  text-decoration: none;
+  margin: 20px auto;
+}
+
+a:hover {
+  color: #FFBF00;
+  text-decoration: underline;
+  font-weight: bold;
+}

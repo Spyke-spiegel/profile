@@ -1,0 +1,41 @@
+@import url("components/cards.css");
+@import url("components/titles.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+
+
+.link_social > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+div {
+  color: #FED766;
+}
+
+body {
+  background-color: #fcfaf1;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+li {
+  font-size: 45px;
+}
+
+p {
+  font-size: 21px;
+}
+
+/*font-family: 'Dancing Script', cursive;*/
+/*font-family: 'Montserrat', sans-serif;*/
