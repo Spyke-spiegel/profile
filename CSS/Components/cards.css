@@ -13,6 +13,36 @@
 }
 
 .movie_rectangular {
-  height: 500px;
-  width: 400px;
+  height: 50vh;
+  width: auto;
+}
+
+.card-movie {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.card-movie p {
+  padding: 0px 30px;
+}
+
+.card-movie img {
+  margin: 0;
+  width: auto;
+  height: 140vh;
+}
+
+@media only screen and (max-width: 940px) {
+  .card-movie {
+    flex-direction: column;
+  }
+  .card-movie img {
+    margin: 0;
+    width: auto;
+    height: 80vh;
+  }
+  .card {
+    padding: 30px;
+  }
 }

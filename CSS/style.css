@@ -37,5 +37,14 @@ p {
   font-size: 21px;
 }
 
-/*font-family: 'Dancing Script', cursive;*/
-/*font-family: 'Montserrat', sans-serif;*/
+@media only screen and (max-width: 940px) {
+  .link_social > li {
+  padding: 0px;
+  }
+  ul {
+    padding-inline-start: 0px;
+
+  }
+  a {
+    font-size: 25px;
+  }
