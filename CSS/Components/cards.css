@@ -1,12 +1,11 @@
 .container {
-  width: 1500px;
-  margin: 0px auto;
+  width: 80%;
 }
 
 .card {
   background-color: #343434;
   width: 70vw;
-  margin: 20px auto;
+  /* margin: 20px auto; */
   padding: 50px;
   border-radius: 15px;
   box-shadow: 2px 2px 3px grey;
