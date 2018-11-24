@@ -25,11 +25,12 @@
 
 .card-movie p {
   padding: 0px 30px;
+  word-wrap: break-word;
 }
 
 .card-movie img {
   margin: 0;
-  width: auto;
+  width: 528px;
   height: 140vh;
 }
 
