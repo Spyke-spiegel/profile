@@ -34,6 +34,7 @@ body {
   display: flex;
   margin-bottom: 20px;
   align-items: center;
+  justify-content: center
 }
 
 .card-movie p {
@@ -43,8 +44,8 @@ body {
 
 .card-movie img {
   margin: 0;
-  width: 528px;
-  height: 140vh;
+  width: 30vw;
+  height: auto;
 }
 
 @media only screen and (max-width: 940px) {
@@ -53,8 +54,8 @@ body {
   }
   .card-movie img {
     margin: 0;
-    width: auto;
-    height: 80vh;
+    width: 30vw;
+    height: auto;
   }
   .card {
     padding: 30px;
