@@ -14,11 +14,15 @@ body {
 
 .card {
   background-color: #343434;
-  max-width: 70%;
-  /* margin: 20px auto; */
+  width: 70%;
+  margin: 10px auto;
   padding: 50px;
   border-radius: 15px;
   box-shadow: 2px 2px 3px grey;
+}
+
+.card a {
+  margin: 5px;
 }
 
 .movie_rectangular {
