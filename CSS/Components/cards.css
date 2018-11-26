@@ -44,7 +44,7 @@ body {
 
 .card-movie img {
   margin: 0;
-  width: 30vw;
+  width: 40vw;
   height: auto;
 }
 
@@ -54,7 +54,7 @@ body {
   }
   .card-movie img {
     margin: 0;
-    width: 30vw;
+    width: 40vw;
     height: auto;
   }
   .card {
