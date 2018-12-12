@@ -2,6 +2,7 @@
 @import url("components/titles.css");
 @import url("components/avatar.css");
 @import url("components/button.css");
+@import url("Components/NavBar.css");
 
 
 .link_social > li {
@@ -47,4 +48,5 @@ p {
   }
   a {
     font-size: 25px;
+    color: #FED766;
   }
