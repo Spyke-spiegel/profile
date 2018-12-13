@@ -2,6 +2,7 @@
 @import url("components/titles.css");
 @import url("components/avatar.css");
 @import url("components/button.css");
+@import url("Components/NavBar.css");
 
 
 .link_social > li {
@@ -20,7 +21,12 @@ div {
 body {
   background-color: #fcfaf1;
   font-family: 'Montserrat', sans-serif;
-  text-align: center
+}
+
+.big-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 h1 {
@@ -47,4 +53,5 @@ p {
   }
   a {
     font-size: 25px;
+    color: #FED766;
   }
