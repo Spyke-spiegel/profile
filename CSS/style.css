@@ -21,7 +21,12 @@ div {
 body {
   background-color: #fcfaf1;
   font-family: 'Montserrat', sans-serif;
-  text-align: center
+}
+
+.big-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 h1 {

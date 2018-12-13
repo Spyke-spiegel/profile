@@ -54,7 +54,6 @@
     animation-fill-mode: forwards;
   }
   
-  
   /* Navbar Links CSS */
   
   #nav {
@@ -71,8 +70,6 @@
   
   #nav a {
     color: #FED766;
-    font-size: 25px;
-    font-family: 'Courier New';
     text-decoration: none;
     line-height: 70vw;
     position: absolute;
@@ -94,7 +91,7 @@
   }
   
   .visible {
-    z-index: 200 !important;
+    z-index: 100 !important;
     opacity: 1 !important;
   }
   
