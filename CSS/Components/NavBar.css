@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .bars {
+    .bars {
     /* background-color:pink; */
     position: absolute;
     width: 27px;
@@ -70,6 +65,7 @@
   
   #nav a {
     color: #FED766;
+    font-size: 45px;
     text-decoration: none;
     line-height: 70vw;
     position: absolute;
@@ -83,10 +79,10 @@
   }
   
   #nav a:hover {
-    background: #fff;
+    background: #2E2E2E;
   }
   
-  ul {
+  .nav ul {
     list-style: none;
   }
   
@@ -104,7 +100,7 @@
     position: absolute;
     transition: all 1s ease-in-out;
     background: #343434;
-    box-shadow: 0 0px 0px rgba(4, 26, 62, 0.5);
+    box-shadow: 0 0px 0px rgba(14, 12, 12, 0.5);
   }
   
   nav.visible li:first-child {
@@ -114,7 +110,7 @@
     right: -100vw;
     z-index: 5;
     transition: all .5s ease-in-out;
-    box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
+    box-shadow: 0 0px 80px rgba(14, 12, 12, 0.5);
   }
   
   nav.visible li:nth-child(2) {
@@ -124,7 +120,7 @@
     right: -75vw;
     z-index: 6;
     transition: all .6s ease-in-out;
-    box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
+    box-shadow: 0 0px 80px rgba(14, 12, 12, 0.5);
   }
   
   nav.visible li:nth-child(3){
@@ -134,7 +130,7 @@
     right: -50vw;
     z-index: 7;
     transition: all .7s ease-in-out;
-    box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
+    box-shadow: 0 0px 80px rgba(14, 12, 12, 0.5);
   }
   
   nav.visible li:last-child{
@@ -144,23 +140,23 @@
     right: -25vw;
     z-index: 8;
     transition: all .8s ease-in-out;
-    box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
+    box-shadow: 0 0px 80px rgba(14, 12, 12, 0.5);
   }
   
   nav.visible li:first-child a {
     line-height: 265vw !important;
-      text-indent: 15vw !important;
+      text-indent: 13vw !important;
   
   }
   
   nav.visible li:nth-child(2) a {
     line-height: 200vw !important;
-    text-indent:17vw !important;
+    text-indent:13vw !important;
   }
   
   nav.visible li:nth-child(3) a {
     line-height: 137vw !important;
-      text-indent: 17vw !important;
+      text-indent: 12vw !important;
     
   }
   
