@@ -2,10 +2,15 @@
   margin: 20px auto;
 }
 
-a {
-  color: #FED766;
-  text-decoration: none;
-  margin: 20px auto;
+.card a {
+    color: #FED766;
+    text-decoration: none;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+.link_social a {
+  font-size: 45px;
 }
 
 a:hover {

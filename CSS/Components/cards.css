@@ -7,10 +7,6 @@
   align-items: center;
 }
 
-body {
-  display: flex;
-  justify-content: center
-}
 
 .card {
   background-color: #343434;
@@ -26,8 +22,9 @@ body {
 }
 
 .movie_rectangular {
-  height: 50vh;
-  width: auto;
+  margin: 0;
+  width: 29vw;
+  height: auto;
 }
 
 .card-movie {
@@ -42,19 +39,26 @@ body {
   word-wrap: break-word;
 }
 
-.card-movie img {
-  margin: 0;
-  width: 40vw;
-  height: auto;
+.card-project{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
+
+.project {
+  height: auto;
+  width: 33%;
+}
+  
+
 
 @media only screen and (max-width: 940px) {
   .card-movie {
     flex-direction: column;
   }
-  .card-movie img {
+  .movie_rectangular{
     margin: 0;
-    width: 40vw;
+    width: 50vw;
     height: auto;
   }
   .card {

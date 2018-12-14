@@ -35,7 +35,7 @@ h1 {
   font-size: 80px;
 }
 
-li {
+li .link_social{
   font-size: 45px;
 }
 
@@ -47,7 +47,7 @@ p {
   .link_social > li {
   padding: 0px;
   }
-  ul {
+  ul .link_social{
     padding-inline-start: 0px;
 
   }
