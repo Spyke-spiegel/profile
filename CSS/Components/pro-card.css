@@ -1,0 +1,25 @@
+.card-project{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .project {
+    height: auto;
+    width: 33%;
+  }
+  
+  .pro-image {
+    height: 20vh;
+    width: auto;
+  }
+
+  .link-pro {
+      text-decoration: none;
+  }
+
+  .project:hover{
+      -moz-box-shadow:    3px 3px 5px 6px #ccc;
+      -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+      box-shadow:         3px 3px 5px 6px #ccc;
+  }
