@@ -13,4 +13,16 @@ function barClicked() {
   bars.classList.toggle('active');
   nav.classList.toggle('visible');
 }
+
+
+var figure = $(".video").hover(playVideo, hideVideo);
+
+function playVideo(e) {
+  $('video', this).get(0).play();
+}
+
+function hideVideo(e) {
+  $('video', this).get(0).load();
+}
+
 }

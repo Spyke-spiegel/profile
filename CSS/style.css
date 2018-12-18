@@ -2,7 +2,8 @@
 @import url("components/titles.css");
 @import url("components/avatar.css");
 @import url("components/button.css");
-@import url("Components/NavBar.css");
+@import url("components/NavBar.css");
+@import url("Components/pro-card.css");
 
 
 .link_social > li {

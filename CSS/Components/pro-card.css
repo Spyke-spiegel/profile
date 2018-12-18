@@ -1,0 +1,62 @@
+.card-project{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .card-project h3 {
+    font-weight: normal;
+    font-size: 30px;
+  }
+  
+  .project {
+    height: auto;
+    width: 33%;
+    border-radius: 5%;
+  }
+  
+  .pro-image {
+    height: 20vh;
+    width: auto;
+  }
+
+  .link-pro {
+      text-decoration: none;
+  }
+
+  .project:hover{
+      -moz-box-shadow:    3px 3px 5px 3px #262626;
+      -webkit-box-shadow: 3px 3px 5px 3px #262626;
+      box-shadow:         3px 3px 5px 3px #262626;
+  }
+
+  #videosList {
+    width: auto;
+    height: 20vh;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+  }
+  
+  /*Add the background here*/
+  #videosList {
+    background-image: url('/images/Skatecity.png');
+    width: auto;
+    height: 20vh;
+  }
+  
+  /*Hide the video container by default*/
+  #videosList .video {
+    display: none;
+    width: auto;
+    height: 20vh;
+  }
+  
+  /*Show the video container on hover*/
+  #videosList:hover .video {
+    display: block;
+  }
+  
+  video::-webkit-media-controls {
+    display: none !important;
+  }
