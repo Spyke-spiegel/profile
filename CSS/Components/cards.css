@@ -1,5 +1,5 @@
 .container {
-  width: 80%;
+  width: 80vw;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -41,6 +41,11 @@
 
   
 @media only screen and (max-width: 940px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
   .card-movie {
     flex-direction: column;
   }
