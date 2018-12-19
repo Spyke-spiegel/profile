@@ -51,6 +51,12 @@
   
   /* Navbar Links CSS */
   
+
+  
+  #nav a:hover {
+    background: #2E2E2E;
+  }
+
   #nav {
     position: fixed;
     top: 0;
@@ -76,10 +82,6 @@
     text-indent: 50vw;
     border-radius: 50%;
     transition: all .5s;
-  }
-  
-  #nav a:hover {
-    background: #2E2E2E;
   }
   
   .nav ul {
