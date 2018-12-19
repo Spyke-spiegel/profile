@@ -1,6 +1,6 @@
     .bars {
     /* background-color:pink; */
-    position: absolute;
+    position: fixed;
     width: 27px;
     height: 27px;
     top: 30px;
@@ -52,7 +52,7 @@
   /* Navbar Links CSS */
   
   #nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
