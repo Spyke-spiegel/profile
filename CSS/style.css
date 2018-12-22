@@ -4,6 +4,7 @@
 @import url("components/button.css");
 @import url("components/NavBar.css");
 @import url("Components/pro-card.css");
+@import url("Components/Contact.css");
 
 
 .link_social > li {
@@ -78,6 +79,7 @@ p {
     padding-inline-start: 0px;
 
   }
+  
   a {
     font-size: 25px;
     color: #FED766;
