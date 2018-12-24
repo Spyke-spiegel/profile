@@ -1,0 +1,66 @@
+.container-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.map {
+    height: auto;
+    width: 100%;
+}
+
+.page-map {
+    width: 50%;
+}
+
+.wechat {
+    height: auto;
+    width: 20vw;
+}
+
+.map-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.con-container {
+    background-color: #343434;
+    height: 100vh;
+    width: 70%;
+    margin: 10px auto;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.pages-block {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.pages-block h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    margin: 10;
+}
+
+.card-op .link_social a {
+    font-size: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: #FED766;
+}
+
+ul {
+    padding-inline-start: 0;
+}
