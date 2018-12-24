@@ -12,6 +12,7 @@
     <script src="Javascript/Navbar.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="https://unpkg.com/popper.js"></script>
 </head>
 
 <body>
@@ -35,13 +36,16 @@
             <h1>Contact</h1>
             <div class="container-contact">
                 <div class="pages-block">
-                    <p><h2>Florent Ayot</h2></p>
+                    <p>
+                        <h2>Florent Ayot</h2>
+                    </p>
                     <div class="card-op">
                         <ul class="link_social">
                             <li><a href="https://www.linkedin.com/in/florent-ayot-6a2564165/" target="blank"><i class="fab fa-linkedin"></i>
                                     Linkedin</a></li>
-                            <li><a href="#" target="blank"><i class="fab fa-weixin"></i>
+                            <li><a href="#" target="blank"><i class="fab fa-weixin" id="button-a"></i>
                                     Wechat</a></li>
+                                   <div id="popup"><img src="images/wechat.png"></div>
                             <li><a href="https://www.twitch.tv/spyke_spiegel007" target="blank"><i class="fab fa-twitch"></i>
                                     Twitch</a></li>
                         </ul>
@@ -54,4 +58,15 @@
             </div>
         </div>
     </div>
+    <script>
+        var ref = $('#button-a');
+        var popup = $('#popup');
+        popup.hide();
+        ref.hover(function () {
+            popup.show();
+            var popper = new Popper(ref,popup,{
+                placement: 'top'
+            })
+        });
+    </script>
 </body>
