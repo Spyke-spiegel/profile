@@ -1,14 +1,18 @@
 .container-contact {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 
 }
 
 .map {
     height: auto;
-    width: 40vw;
+    width: 100%;
+}
+
+.page-map {
+    width: 50%;
 }
 
 .wechat {
@@ -19,35 +23,44 @@
 .map-img {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;
 }
 
-.container{
+.con-container {
     background-color: #343434;
+    height: 100vh;
     width: 70%;
     margin: 10px auto;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 2px 2px 3px grey;
-  }
+}
 
-  .pages-block {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
+.pages-block {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
 
-  .card-op a {
-        
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-  }
+.pages-block h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    margin: 10;
+}
 
-  .link_social2 {
-    font-size: 25px;
+.card-op .link_social a {
+    font-size: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     text-decoration: none;
-    color: #FED766;li
-  }
+    color: #FED766;
+}
+
+ul {
+    padding-inline-start: 0;
+}
