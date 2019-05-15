@@ -1,67 +1,67 @@
-.card-project{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
+.card-project {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.card-project h3 {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.card-project h2 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.project {
+  height: 20%;
+  width: 33%;
+  border-radius: 5%;
+}
+
+.pro-image {
+  height: 200px;
+  width: auto;
+}
+
+.link-pro {
+  text-decoration: none;
+}
+
+.project:hover {
+  -moz-box-shadow: 3px 3px 5px 3px #262626;
+  -webkit-box-shadow: 3px 3px 5px 3px #262626;
+  box-shadow: 3px 3px 5px 3px #262626;
+}
+
+@media only screen and (max-width: 940px) {
+  .card-project {
+    flex-direction: column;
+    align-items: center
+  }
+
+  .project {
+    height: auto;
+    width: 100%;
+    border-radius: 5%;
+    padding-top: 15px;
   }
 
   .card-project h3 {
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .card-project h2 {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 30px;
   }
-  
-  .project {
+
+  .card-project img {
+    width: 100%;
     height: auto;
-    width: 33%;
-    border-radius: 5%;
-  }
-  
-  .pro-image {
-    height: 20vh;
-    width: auto;
   }
 
-  .link-pro {
-      text-decoration: none;
-  }
-
-  .project:hover{
-      -moz-box-shadow:    3px 3px 5px 3px #262626;
-      -webkit-box-shadow: 3px 3px 5px 3px #262626;
-      box-shadow:         3px 3px 5px 3px #262626;
-  }
-
-  @media only screen and (max-width: 940px) {
-    .card-project {
-      flex-direction: column;
-      align-items: center
-    }
-
-    .project {
-      height: auto;
-      width: 100%;
-      border-radius: 5%;
-      padding-top: 15px;
-    }
-
-    .card-project h3 {
-      font-weight: normal;
-      font-size: 20px;
-    }
-  
-    .card-project h2 {
-      font-weight: bold;
-      font-size: 30px;
-    }
-
-    .card-project img {
-      width: 100%;
-      height: auto;
-    }
-  
-  }
+}

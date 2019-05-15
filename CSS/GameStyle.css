@@ -1,0 +1,57 @@
+canvas {
+    width: 600px;
+    height: 600px;
+    border: 5px solid black;
+    margin: auto
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.mess {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-family: 'Major Mono Display', monospace;
+    padding: 25px 0 25px 50px;
+}
+
+@media only screen and (max-width: 900px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    canvas {
+        width: 300px;
+        height: 300px;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .mess {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+
+    .title {
+        padding: 10px 0 10px 25px
+    }
+}
